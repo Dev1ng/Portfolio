@@ -64,8 +64,7 @@ const onSubmit = async (event) => {
         alert("Message cannot be empty.");
         return;
     }
-    const accessKEY = process.env.ACCESS_KEY;
-    formData.append("access_key", ACCESS_KEY);
+    formData.append("access_key", import.meta.env.VITE_ACCESS_KEY);
 
     try {
         const response = await fetch("https://api.web3forms.com/submit", {
