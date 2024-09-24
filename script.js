@@ -64,7 +64,7 @@ const onSubmit = async (event) => {
         alert("Message cannot be empty.");
         return;
     }
-    formData.append("access_key", 86c078b2-5aea-4a30-a740-b7322bea5b64);
+    formData.append("access_key", "86c078b2-5aea-4a30-a740-b7322bea5b64");
 
     try {
         const response = await fetch("https://api.web3forms.com/submit", {
@@ -85,4 +85,4 @@ const onSubmit = async (event) => {
         console.error("Fetch Error:", error);
         alert("There was a problem submitting the form.");
     }
-};
+}
