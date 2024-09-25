@@ -350,17 +350,8 @@ section{
 .project-card p{
     font-size: 1.6rem;
 }
-a {
-    color: inherit; /* Ensures links take the surrounding text color */
-    text-decoration: none; /* Removes underline from links */
-}
-
 a:visited {
-    color: inherit; /* Ensures visited links don’t turn purple */
-}
-
-a:hover {
-    color: var(--main-color); /* Add hover effect if needed */
+    color:(--main-color);
 }
 .contact{
     background-color: var(--bg-color);
