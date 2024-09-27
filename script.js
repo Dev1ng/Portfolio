@@ -6,7 +6,7 @@ menuIcon.onclick = () => {
     navbar.classList.toggle('active');
 };
 
-const words = ['Deep Learning: Neural Networks Designer', 'PowerBI/Tableau Developer', 'DAX Query Expert', 'ML Model Designer', 'Gamer', 'Frontend Developer', 'Backend Developer'];
+const words = ['DL/Neural Networks Designer', 'PowerBI/Tableau Developer', 'DAX Query Expert', 'ML Model Designer', 'Gamer', 'Frontend Developer', 'Backend Developer'];
 let wordIndex = 0;
 let charIndex = 0;
 let currentWord = '';
