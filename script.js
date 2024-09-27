@@ -85,3 +85,10 @@ const onSubmit = async (event) => {
 }
 
 document.getElementById('contact-form').addEventListener('submit', onSubmit);
+
+document.getElementById('contact-btn').addEventListener('click', function() {
+  document.querySelector('#contact').scrollIntoView({ 
+    behavior: 'smooth' 
+  });
+});
+
